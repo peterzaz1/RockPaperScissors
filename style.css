@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffea00;
+  font-family: "Dm Sans", Trebuchet MS, sans-serif;
+  color: rgb(40, 51, 74);
+}
+h1 {
+  font-weight: 400;
+  font-size: 55px;
+}
+button {
+  background-color: #ffea00;
+  border: none;
+}
+
+.grow img {
+  transition: 230ms ease;
+}
+
+.grow img:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 230ms ease;
+}
+
+.upper-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  gap: 60px;
+}
+.score {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.game-over {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 16px;
+}
